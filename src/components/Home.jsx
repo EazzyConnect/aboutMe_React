@@ -1,40 +1,52 @@
 import React from 'react';
 import homeCSS from './css-files/Home.module.css';
 import Items from './sub-components/Items';
+import { Stack } from './sub-components/Items';
 import myPic from '../assets/images/eazzy.png';
+
 
 const Home = () => {
 
   const myTechStack = [
     {
-      image: "./src/assets/images/node.png"
+      image: "./src/assets/images/node.png",
+      alt: "Node.js"
     },
     {
-      image: "./src/assets/images/react.png"
+      image: "./src/assets/images/react.png",
+      alt: "React.js"
     },
     {
-      image: "./src/assets/images/js.png"
+      image: "./src/assets/images/js.png",
+      alt: "JavaScript"
     },
     {
-      image: "./src/assets/images/html.png"
+      image: "./src/assets/images/html.png",
+      alt: "HTML"
     },
     {
-      image: "./src/assets/images/css.png"
+      image: "./src/assets/images/css.png",
+      alt: "CSS"
     },
     {
-      image: "./src/assets/images/typescript.png"
+      image: "./src/assets/images/typescript.png",
+      alt: "TypeScript"
     },
     {
-      image: "./src/assets/images/mongoDb.jpg"
+      image: "./src/assets/images/mongoDb.jpg",
+      alt: "MongoDB"
     },
     {
-      image: "./src/assets/images/postman.png"
+      image: "./src/assets/images/postman.png",
+      alt: "PostMan"
     },
     {
-      image: "./src/assets/images/github.png"
+      image: "./src/assets/images/github.png",
+      alt: "GitHub"
     },
     {
-      image: "./src/assets/images/vsCode.jpg"
+      image: "./src/assets/images/vsCode.jpg",
+      alt: "VsCode"
     }
   ];
 
@@ -80,13 +92,21 @@ const Home = () => {
     }
   ];
 
+  const downloadCV = () => {
+    const CV = document.createElement("a");
+    CV.href = "./src/assets/images/IsaiahOkon-CV.pdf";
+    CV.download = "IsaiahOkon-CV.pdf";
+    CV.click()
+  }
+
+
   return (
     <>
       <div>
 
-        <div className={homeCSS.intro}>
+        <div id={homeCSS.heroSection}>
 
-          <div className={homeCSS.leftAbtMe}>
+          <div id={homeCSS.heroLeft}>
             <h1 className={homeCSS.welcomeText}>
               Hi👋,
               <br />
@@ -94,16 +114,68 @@ const Home = () => {
               <br />
               A Software Engineer
             </h1>
-            <h6 id={homeCSS.textBottom}>Let's build something amazing together!
-            </h6>
+            <h4 id={homeCSS.textBottom}> Ready to create extraordinary solutions with you! Let's embark on a journey of innovation and excellence together, building remarkable software that transforms ideas into reality. Together, we'll craft technology that leaves a lasting impact on the world. Let's build something amazing! 🚀
+            </h4>
+            <button onClick={downloadCV}>Download CV</button>
           </div>
-          <div className={homeCSS.rightAbtMe}>
-            <img src={myPic} alt="isaiahOkon" />
+
+          <div id={homeCSS.heroRight}>
+
+            <img id={homeCSS.myPic} src={myPic} alt="isaiahOkon" />
+
+            <div id={homeCSS.heroLinks}>
+
+              <h4 id={homeCSS.followMe}>Follow me on: </h4>
+
+              <div id={homeCSS.line}></div>
+
+              <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" />
+              </a>
+
+              <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" />
+              </a>
+
+              <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" />
+              </a>
+
+            </div>
+
           </div>
 
         </div>
 
-        <div className={homeCSS.tools}>
+        <div id={homeCSS.services}>
+
+          <div className={homeCSS.serviceHeading}>
+            <h3 className={homeCSS.serviceTitle}>My Services</h3>
+            <p className={homeCSS.serviceDesc}>With expertise in both backend and frontend web development, I craft seamless digital experiences that marry functionality with aesthetic appeal. From robust server-side solutions to captivating user interfaces, I deliver dynamic websites that elevate your online presence.</p>
+          </div>
+
+          <div id={homeCSS.myServices}>
+
+            <div id={homeCSS.serviceBox}>
+              {/* <i className="fa-solid fa-database"></i> */}
+              <img className={homeCSS.servIcon} src="./src/assets/images/database.webp" alt="database" />
+              <h2>Backend Web Development</h2>
+              <p className={homeCSS.serviceBoxText}>Building the server-side logic and infrastructure that powers web applications, ensures security and
+                optimizng performance.</p>
+            </div>
+
+            <div id={homeCSS.serviceBox}>
+              {/* <i className="fa-solid fa-code"></i> */}
+              <img className={homeCSS.servIcon} src="./src/assets/images/webDev.jpg" alt="database" />
+              <h2>Web Design</h2>
+              <p className={homeCSS.serviceBoxText}>Creating responsive websites that are visually appealing and user-friendly.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id={homeCSS.tools}>
 
           <div className={homeCSS.toolsHeading}>
 
@@ -117,7 +189,7 @@ const Home = () => {
             {
               myTechStack.map((stack, index) => {
                 return (
-                  <Items key={index} itemImg={stack.image} />
+                  <Stack key={index} stackImg={stack.image} stackAlt={stack.alt} />
                 )
               })
             }
@@ -126,7 +198,7 @@ const Home = () => {
 
         </div>
 
-        <div className={homeCSS.projects}>
+        <div id={homeCSS.projects}>
 
           <div className={homeCSS.projectHeading}>
 
@@ -159,7 +231,7 @@ const Home = () => {
 
         </div>
 
-        <div className={homeCSS.outro}>
+        <div id={homeCSS.outro}>
 
 
           <div className={homeCSS.rightOutro}>
