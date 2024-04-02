@@ -5,7 +5,7 @@
  align-items: center;
  justify-content: space-between;
  margin: 3rem 4rem;
- height: 80vh;
+ height: 90vh;
 }
 
 #heroLeft {
@@ -79,7 +79,7 @@ span {
  flex-direction: column;
  align-items: center;
  justify-content: center;
- margin: 0 4rem 3rem 4rem;
+ margin: 0 4rem 1rem 4rem;
  background-color: #583ebc;
 }
 
@@ -109,17 +109,16 @@ span {
 }
 
 .servIcon {
- width: 10rem;
- height: 8rem;
- background-color: red;
+ width: 100%;
+ height: 15rem;
 }
 
 #serviceBox {
  width: 40%;
  background: whitesmoke;
- padding: 4rem 2.5rem;
+ padding: 2rem;
  border-radius: 1rem;
- transition: background 0.5s, transform 0.5s;
+ /* transition: background 0.5s, transform 0.5s; */
 }
 
 /* #serviceBox:hover {
@@ -143,7 +142,7 @@ span {
  flex-direction: column;
  align-items: center;
  justify-content: center;
- margin: 1.25rem 1.25rem 4.5rem 1.25rem;
+ margin: 1.25rem 1.25rem 2rem 1.25rem;
  padding: 3.2rem;
 }
 
@@ -173,6 +172,75 @@ span {
 
 /* PROJECT SECTION */
 #projects {
- margin: 3rem 4rem;
- border: 1px solid black;
+ margin: 3rem 0;
+ background-color: #583ebc;
+ /* background-image: linear-gradient(#583ebc, whitesmoke); */
+ padding: 3rem 0;
+}
+
+.projectSamples {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+ background-color: #583ebc;
+ /* color: whitesmoke; */
+}
+
+.projectHeading {
+ background-color: #583ebc;
+}
+
+.projectTitle {
+ font-size: 3rem;
+ font-weight: normal;
+ margin-bottom: 1rem;
+ text-align: center;
+ background-color: #583ebc;
+ color: whitesmoke;
+}
+
+.projectDescription {
+ font-size: 1rem;
+ font-weight: lighter;
+ text-align: center;
+ background-color: #583ebc;
+ color: whitesmoke;
+ margin-bottom: 2rem;
+}
+
+
+/* OUTRO SESSION */
+#outro {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 4rem;
+ margin-bottom: 2rem;
+
+}
+
+.leftOutro ul {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+.rightOutro {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+}
+
+.rightOutroText {
+ font-weight: normal;
 }

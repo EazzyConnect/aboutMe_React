@@ -56,7 +56,7 @@ const Home = () => {
       imgAlt: "CV-Maker App",
       projectTitle: "CV-Creator Web Application",
       projectDesc: "The application allows users to register, create, edit and download their CV for free.",
-      projectStack: "NodeJs, HBS, JavaScript, CSS, MongoDb",
+      projectStack: "Node.js, HBS, JavaScript, CSS, MongoDb",
       projectLink: "https://portfolio-2xds.onrender.com/home",
       projectCode: "https://github.com/EazzyConnect/FullWebApp",
       livePreview: "Live Preview",
@@ -65,11 +65,11 @@ const Home = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "./src/assets/images/project3.png",
+      projectImg: "./src/assets/images/project5.png",
       imgAlt: "EMS App",
       projectTitle: "Employment Management System",
-      projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted. (For BACKEND consumption).",
-      projectStack: "NodeJs, ExpressJs, MongoDb",
+      projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted.",
+      projectStack: "React.js, Node.js, Express.js, MongoDb",
       projectLink: "https://employment-mgt-sys.onrender.com/unauth/all-jobs",
       projectCode: "https://github.com/EazzyConnect/Employment-Mgt-System",
       livePreview: "Live Preview",
@@ -202,8 +202,8 @@ const Home = () => {
 
           <div className={homeCSS.projectHeading}>
 
-            <h3 className={homeCSS.title}>Projects</h3>
-            <h6 className={homeCSS.description}>Things I've built so far</h6>
+            <h3 className={homeCSS.projectTitle}>Projects</h3>
+            <h6 className={homeCSS.projectDescription}>Things I've built so far</h6>
 
           </div>
 
@@ -229,27 +229,38 @@ const Home = () => {
             }
           </div>
 
+          {/* <div>
+            <button onClick={() => toggleTab("Projects")}>View More</button>
+          </div> */}
+
         </div>
 
         <div id={homeCSS.outro}>
 
-
-          <div className={homeCSS.rightOutro}>
+          <div className={homeCSS.leftOutro}>
 
             <ul>
-              <li className={homeCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i>
-                +2348085202397</a></li>
-              <li className={homeCSS.bottomList}><a href="mailto:okon.isaiah.samuel@gmail.com"><i
-                className="fa-solid fa-envelope"></i> okon.isaiah.samuel@gmail.com</a></li>
+              <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" />
+              </a>
+
+              <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" />
+              </a>
+
+              <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" />
+              </a>
+              <li className={homeCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i> +2348085202397</a></li>
+              <li className={homeCSS.bottomList}><a href="mailto:okon.isaiah.samuel@gmail.com"><i className="fa-solid fa-envelope"></i> okon.isaiah.samuel@gmail.com</a></li>
             </ul>
 
           </div>
 
+          <div className={homeCSS.rightOutro}>
 
-          <div className={homeCSS.bottomOutro}>
-
-            <h5>©️ 2024</h5>
-            <h5>IsaiahOkon</h5>
+            <h4 className={homeCSS.rightOutroText}>©️ 2024</h4>
+            <h4 className={homeCSS.rightOutroText}>IsaiahOkon</h4>
 
           </div>
 
