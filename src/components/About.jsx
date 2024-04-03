@@ -7,6 +7,13 @@ const About = () => {
 
   const myExperience = [
     {
+      title: "Software Engineer (Backend)",
+      organization: "Monocle Ltd",
+      location: "Lagos, Nigeria",
+      date: "March 2024 - Current",
+      partFullTrainee: "Part-Time"
+    },
+    {
       title: "Software Engineer (Full-Stack)",
       organization: "SAIL Innovation Lab",
       location: "Lagos, Nigeria",
@@ -31,8 +38,8 @@ const About = () => {
       title: "Academic Tutor",
       organization: "Greater Scholar International School",
       location: "Lagos, Nigeria",
-      date: "sept 2019 - Aug 2022",
-      partFullTrainee: "Trainee"
+      date: "Sept 2019 - Aug 2022",
+      partFullTrainee: "Full-Time"
     },
     {
       title: "National Service",
@@ -85,7 +92,7 @@ const About = () => {
 
         <div className={aboutCSS.innerBox}>
 
-          <h1 id="expTitle">Experience</h1>
+          <h1 className={aboutCSS.expTitle}>Experience</h1>
           <div>
             {
               myExperience.map((item, index) => {
@@ -99,7 +106,7 @@ const About = () => {
 
         <div className={aboutCSS.innerBox}>
 
-          <h1 id="expTitle">Training and Certification</h1>
+          <h1 className={aboutCSS.expTitle}>Training and Certification</h1>
           <div>
             {
               myTrainingAndCert.map((item, index) => {
@@ -113,7 +120,8 @@ const About = () => {
 
         <div className={aboutCSS.innerBox}>
 
-          <h1 id="expTitle">Education</h1>
+          <h1 className={aboutCSS.expTitle}>Education</h1>
+
           <div>
             {
               myEducation.map((item, index) => {
@@ -123,33 +131,47 @@ const About = () => {
               })
             }
           </div>
-        </div>
-
-        <div className={aboutCSS.outro}>
-
-
-          <div className={aboutCSS.rightOutro}>
-
-            <ul>
-              <li className={aboutCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i>
-                +2348085202397</a></li>
-              <li className={aboutCSS.bottomList}><a href="mailto:okon.isaiah.samuel@gmail.com"><i
-                className="fa-solid fa-envelope"></i> okon.isaiah.samuel@gmail.com</a></li>
-            </ul>
-
-          </div>
-
-
-          <div className={aboutCSS.bottomOutro}>
-
-            <h5>©️ 2024</h5>
-            <h5>IsaiahOkon</h5>
-
-          </div>
 
         </div>
 
       </div>
+
+      <div id={aboutCSS.outro}>
+
+
+        <div className={aboutCSS.leftOutro}>
+
+          <ul>
+            <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+
+            <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <li className={aboutCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i> +2348085202397</a></li>
+
+            <li className={aboutCSS.bottomList}><a href="mailto:okon.isaiah.samuel@gmail.com"><i
+              className="fa-solid fa-envelope"></i> okon.isaiah.samuel@gmail.com</a></li>
+          </ul>
+
+        </div>
+
+        <div className={aboutCSS.rightOutro}>
+
+          <h4 className={aboutCSS.rightOutroText}>©️ 2024</h4>
+          <h4 className={aboutCSS.rightOutroText}>IsaiahOkon</h4>
+
+        </div>
+
+      </div>
+
     </>
   )
 };

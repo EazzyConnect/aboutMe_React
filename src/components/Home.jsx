@@ -251,8 +251,11 @@ const Home = () => {
               <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
                 <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" />
               </a>
+
               <li className={homeCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i> +2348085202397</a></li>
+
               <li className={homeCSS.bottomList}><a href="mailto:okon.isaiah.samuel@gmail.com"><i className="fa-solid fa-envelope"></i> okon.isaiah.samuel@gmail.com</a></li>
+
             </ul>
 
           </div>

@@ -1,0 +1,38 @@
+#titleAndPeriod {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 10px;
+}
+
+#title {
+ font-weight: lighter;
+ font-size: large;
+}
+
+#period {
+ background-color: rgb(166, 241, 216);
+ color: green;
+ padding: 5px;
+ border-radius: 10px;
+ text-align: center;
+ font-weight: lighter;
+}
+
+#bottomItem {
+ display: flex;
+ justify-content: space-between;
+ font-weight: lighter;
+ font-size: small;
+}
+
+#leftBottom {
+ display: flex;
+ width: 50%;
+ justify-content: space-between;
+}
+
+hr {
+ border: 1px solid black;
+ margin: 20px 0;
+}

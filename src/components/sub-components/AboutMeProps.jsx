@@ -1,20 +1,23 @@
 import React from 'react';
+import AboutMeCSS from '../css-files/AboutMeProps.module.css'
 
 const AboutMeProps = ({ title, organization, location, date, partFullTrainee }) => {
  return (
   <>
-   <div>
-    <h4>{title}</h4>
-    <h6>{partFullTrainee}</h6>
+   <div id={AboutMeCSS.titleAndPeriod}>
+    <h4 id={AboutMeCSS.title}>{title}</h4>
+    <h6 id={AboutMeCSS.period}>{partFullTrainee}</h6>
    </div>
 
-   <div>
-    <div>
-     <h5><i className="fa-regular fa-building"></i>{organization}</h5>
-     <h5><i className="fa-solid fa-location-dot"></i>{location}</h5>
+   <div id={AboutMeCSS.bottomItem}>
+    <div id={AboutMeCSS.leftBottom}>
+     <p> <i className="fa-regular fa-building"></i> {organization} </p>
+     <p> <i className="fa-solid fa-location-dot"></i> {location} </p>
     </div>
-    <h5><i className="fa-solid fa-calendar"></i> {date}</h5>
+    <p> <i className="fa-solid fa-calendar"></i> {date} </p>
    </div>
+
+   <hr />
   </>
  )
 };
