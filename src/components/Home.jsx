@@ -146,15 +146,15 @@ const Home = ({ toggleTab }) => {
               <div id={homeCSS.line}></div>
 
               <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" />
+                <img className={homeCSS.linkIcon} src="icons/linkedIn.png" alt="linkedIn" />
               </a>
 
               <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" />
+                <img className={homeCSS.linkIcon} src="icons/twitter.png" alt="twitter" />
               </a>
 
               <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" />
+                <img className={homeCSS.linkIcon} src="icons/github.png" alt="github" />
               </a>
 
             </div>
@@ -179,7 +179,7 @@ const Home = ({ toggleTab }) => {
 
             <div id={homeCSS.serviceBox}>
               {/* <i className="fa-solid fa-database"></i> */}
-              <img className={homeCSS.servIcon} src="./src/assets/images/database.webp" alt="database" />
+              <img className={homeCSS.servIcon} src="images/database.webp" alt="database" />
               <h2>Backend Web Development</h2>
               <p className={homeCSS.serviceBoxText}>Building the server-side logic and infrastructure that powers web applications, ensures security and
                 optimizng performance.</p>
@@ -187,7 +187,7 @@ const Home = ({ toggleTab }) => {
 
             <div id={homeCSS.serviceBox}>
               {/* <i className="fa-solid fa-code"></i> */}
-              <img className={homeCSS.servIcon} src="./src/assets/images/webDev.jpg" alt="UI/UX" />
+              <img className={homeCSS.servIcon} src="images/webDev.jpg" alt="UI/UX" />
               <h2>Web Design</h2>
               <p className={homeCSS.serviceBoxText}>Creating responsive websites that are visually appealing and user-friendly.</p>
             </div>
@@ -262,17 +262,17 @@ const Home = ({ toggleTab }) => {
 
             <ul>
               <a className={homeCSS.linkIconHide} href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
-                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" /> */}
+                {/* <img className={homeCSS.linkIcon} src="icons/linkedIn.png" alt="linkedIn" /> */}
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
               <a className={homeCSS.linkIconHide} href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
-                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" /> */}
+                {/* <img className={homeCSS.linkIcon} src="icons/twitter.png" alt="twitter" /> */}
                 <i className="fa-brands fa-twitter"></i>
               </a>
 
               <a className={homeCSS.linkIconHide} href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
-                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" /> */}
+                {/* <img className={homeCSS.linkIcon} src="icons/github.png" alt="github" /> */}
                 <i className="fa-brands fa-github"></i>
               </a>
 

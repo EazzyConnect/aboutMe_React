@@ -9,7 +9,7 @@ const Projects = () => {
 
   const myProjects = [
     {
-      projectImg: "./src/assets/images/project1.png",
+      projectImg: "images/project1.png",
       imgAlt: "CV-Maker App",
       projectTitle: "CV-Creator Web Application",
       projectDesc: "The application allows users to register, create, edit and download their CV for free.",
@@ -22,7 +22,7 @@ const Projects = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "./src/assets/images/project5.png",
+      projectImg: "images/project5.png",
       imgAlt: "EMS App",
       projectTitle: "Employment Management System",
       projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted. (For BACKEND consumption).",
@@ -35,7 +35,7 @@ const Projects = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "./src/assets/images/project4.png",
+      projectImg: "images/project4.png",
       imgAlt: "TipCalculator",
       projectTitle: "Tip Calculator",
       projectDesc: "The application is used to quickly determine the appropriate gratuity amount based on a percentage of the total bill.",
@@ -48,7 +48,7 @@ const Projects = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "./src/assets/images/project9.png",
+      projectImg: "images/project9.png",
       imgAlt: "myTodoApp",
       projectTitle: "My Todo App",
       projectDesc: "A sleek and intuitive to-do app designed to streamline your productivity and organize your tasks effortlessly",
@@ -114,16 +114,16 @@ const Projects = () => {
             <div className={projectCSS.clonedWorks1}>
 
               <div className={projectCSS.clonedWorks1Left}>
-                <img id={projectCSS.img1} src="./src/assets/images/project6A.png" alt="img.png" />
+                <img id={projectCSS.img1} src="images/project6A.png" alt="img.png" />
               </div>
 
               <div className={projectCSS.clonedWorks1Right}>
 
-                <img id={projectCSS.img2} src="./src/assets/images/project6B.png" alt="img.png" />
+                <img id={projectCSS.img2} src="images/project6B.png" alt="img.png" />
 
                 <p id={projectCSS.img2Text}>Discover my rendition of a responsive web application, meticulously crafted to maintain functionality across various devices.</p>
 
-                <img id={projectCSS.img4} src="./src/assets/images/project2.png" alt="img.png" />
+                <img id={projectCSS.img4} src="images/project2.png" alt="img.png" />
 
               </div>
 
@@ -131,7 +131,7 @@ const Projects = () => {
 
             <div className={projectCSS.clonedWorks2}>
 
-              <img id={projectCSS.img3} src="./src/assets/images/project7.jpg" alt="adidas.png" />
+              <img id={projectCSS.img3} src="images/project7.jpg" alt="adidas.png" />
 
             </div>
 
@@ -151,7 +151,7 @@ const Projects = () => {
 
           <h3 id={projectCSS.disneyText}>Disney landing page clone. (video)</h3>
 
-          <video id={projectCSS.video1} src="./src/assets/videos/DisneyClone.mp4" controls></video>
+          <video id={projectCSS.video1} src="videos/DisneyClone.mp4" controls></video>
 
         </div>
 
@@ -161,7 +161,7 @@ const Projects = () => {
 
           <h3 id={projectCSS.disneyText}>Facebook landing page clone (video)</h3>
 
-          <video id={projectCSS.video2} src="./src/assets/videos/facebookClone.mp4" controls></video>
+          <video id={projectCSS.video2} src="videos/facebookClone.mp4" controls></video>
 
         </div>
 
