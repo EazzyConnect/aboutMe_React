@@ -3,16 +3,6 @@ import homeCSS from './css-files/Home.module.css';
 import Items from './sub-components/Items';
 import { Stack } from './sub-components/Items';
 import myPic from '../assets/images/eazzy.png';
-import node from '../assets/images/node.png';
-import reactImg from '../assets/images/react.png';
-import js from '../assets/images/js.png';
-import html from '../assets/images/html.png';
-import css from '../assets/images/css.png';
-import ts from '../assets/images/typescript.png';
-import mongoDB from '../assets/images/mongoDb.jpg';
-import postman from '../assets/images/postman.png';
-import github from '../assets/images/github.png';
-import vsCode from '../assets/images/vsCode.jpg';
 
 
 const Home = ({ toggleTab }) => {
@@ -20,50 +10,50 @@ const Home = ({ toggleTab }) => {
 
   const myTechStack = [
     {
-      image: { node },
+      image: "images/node.png",
       alt: "Node.js"
     },
     {
-      image: { reactImg },
+      image: "images/react.png",
       alt: "React.js"
     },
     {
-      image: { js },
+      image: "images/js.png",
       alt: "JavaScript"
     },
     {
-      image: { html },
+      image: "images/html.png",
       alt: "HTML"
     },
     {
-      image: { css },
+      image: "images/css.png",
       alt: "CSS"
     },
     {
-      image: { ts },
+      image: "images/typescript.png",
       alt: "TypeScript"
     },
     {
-      image: { mongoDB },
+      image: "images/mongoDb.jpg",
       alt: "MongoDB"
     },
     {
-      image: { postman },
+      image: "images/postman.png",
       alt: "PostMan"
     },
     {
-      image: { github },
+      image: "images/github.png",
       alt: "GitHub"
     },
     {
-      image: "./assets/images/vsCode.jpg",
+      image: "images/vsCode.jpg",
       alt: "VsCode"
     }
   ];
 
   const myProjects = [
     {
-      projectImg: "../src/assets/images/project1.png",
+      projectImg: "images/project1.png",
       imgAlt: "CV-Maker App",
       projectTitle: "CV-Creator Web Application",
       projectDesc: "The application allows users to register, create, edit and download their CV for free.",
@@ -76,7 +66,7 @@ const Home = ({ toggleTab }) => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "../src/assets/images/project5.png",
+      projectImg: "images/project5.png",
       imgAlt: "EMS App",
       projectTitle: "Employment Management System",
       projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted.",
@@ -89,7 +79,7 @@ const Home = ({ toggleTab }) => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "../src/assets/images/project4.png",
+      projectImg: "images/project4.png",
       imgAlt: "TipCalculator",
       projectTitle: "Tip Calculator",
       projectDesc: "The application is used to quickly determine the appropriate gratuity amount based on a percentage of the total bill.",
@@ -105,7 +95,7 @@ const Home = ({ toggleTab }) => {
 
   const downloadCV = () => {
     const CV = document.createElement("a");
-    CV.href = "../src/assets/images/IsaiahOkon-CV.pdf";
+    CV.href = "images/IsaiahOkon-CV.pdf";
     CV.download = "IsaiahOkon-CV.pdf";
     CV.click()
   }
@@ -156,15 +146,15 @@ const Home = ({ toggleTab }) => {
               <div id={homeCSS.line}></div>
 
               <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="../src/assets/icons/linkedIn.png" alt="linkedIn" />
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" />
               </a>
 
               <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="../src/assets/icons/twitter.png" alt="twitter" />
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" />
               </a>
 
               <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="../src/assets/icons/github.png" alt="github" />
+                <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" />
               </a>
 
             </div>
@@ -189,7 +179,7 @@ const Home = ({ toggleTab }) => {
 
             <div id={homeCSS.serviceBox}>
               {/* <i className="fa-solid fa-database"></i> */}
-              <img className={homeCSS.servIcon} src="../src/assets/images/database.webp" alt="database" />
+              <img className={homeCSS.servIcon} src="./src/assets/images/database.webp" alt="database" />
               <h2>Backend Web Development</h2>
               <p className={homeCSS.serviceBoxText}>Building the server-side logic and infrastructure that powers web applications, ensures security and
                 optimizng performance.</p>
@@ -197,7 +187,7 @@ const Home = ({ toggleTab }) => {
 
             <div id={homeCSS.serviceBox}>
               {/* <i className="fa-solid fa-code"></i> */}
-              <img className={homeCSS.servIcon} src="../src/assets/images/webDev.jpg" alt="UI/UX" />
+              <img className={homeCSS.servIcon} src="./src/assets/images/webDev.jpg" alt="UI/UX" />
               <h2>Web Design</h2>
               <p className={homeCSS.serviceBoxText}>Creating responsive websites that are visually appealing and user-friendly.</p>
             </div>
@@ -272,17 +262,17 @@ const Home = ({ toggleTab }) => {
 
             <ul>
               <a className={homeCSS.linkIconHide} href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
-                {/* <img className={homeCSS.linkIcon} src="../src/assets/icons/linkedIn.png" alt="linkedIn" /> */}
+                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" /> */}
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
               <a className={homeCSS.linkIconHide} href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
-                {/* <img className={homeCSS.linkIcon} src="../src/assets/icons/twitter.png" alt="twitter" /> */}
+                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" /> */}
                 <i className="fa-brands fa-twitter"></i>
               </a>
 
               <a className={homeCSS.linkIconHide} href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
-                {/* <img className={homeCSS.linkIcon} src="../src/assets/icons/github.png" alt="github" /> */}
+                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" /> */}
                 <i className="fa-brands fa-github"></i>
               </a>
 
