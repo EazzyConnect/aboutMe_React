@@ -3,6 +3,16 @@ import homeCSS from './css-files/Home.module.css';
 import Items from './sub-components/Items';
 import { Stack } from './sub-components/Items';
 import myPic from '../assets/images/eazzy.png';
+import node from '../assets/images/node.png';
+import reactImg from '../assets/images/react.png';
+import js from '../assets/images/js.png';
+import html from '../assets/images/html.png';
+import css from '../assets/images/css.png';
+import ts from '../assets/images/typescript.png';
+import mongoDB from '../assets/images/mongoDb.jpg';
+import postman from '../assets/images/postman.png';
+import github from '../assets/images/github.png';
+import vsCode from '../assets/images/vsCode.jpg';
 
 
 const Home = ({ toggleTab }) => {
@@ -10,43 +20,43 @@ const Home = ({ toggleTab }) => {
 
   const myTechStack = [
     {
-      image: "../src/assets/images/node.png",
+      image: { node },
       alt: "Node.js"
     },
     {
-      image: "../src/assets/images/react.png",
+      image: { reactImg },
       alt: "React.js"
     },
     {
-      image: "../src/assets/images/js.png",
+      image: { js },
       alt: "JavaScript"
     },
     {
-      image: "../src/assets/images/html.png",
+      image: { html },
       alt: "HTML"
     },
     {
-      image: "../src/assets/images/css.png",
+      image: { css },
       alt: "CSS"
     },
     {
-      image: "../src/assets/images/typescript.png",
+      image: { ts },
       alt: "TypeScript"
     },
     {
-      image: "../src/assets/images/mongoDb.jpg",
+      image: { mongoDB },
       alt: "MongoDB"
     },
     {
-      image: "../src/assets/images/postman.png",
+      image: { postman },
       alt: "PostMan"
     },
     {
-      image: "../src/assets/images/github.png",
+      image: { github },
       alt: "GitHub"
     },
     {
-      image: "../src/assets/images/vsCode.jpg",
+      image: "./assets/images/vsCode.jpg",
       alt: "VsCode"
     }
   ];
