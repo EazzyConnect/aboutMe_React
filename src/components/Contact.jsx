@@ -69,16 +69,16 @@ const Contact = () => {
 
           <ul>
             <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
 
 
             <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
-              <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
             </a>
 
             <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
 
             <li className={contactCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i> +2348085202397</a></li>

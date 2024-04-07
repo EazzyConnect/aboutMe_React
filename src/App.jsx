@@ -41,7 +41,7 @@ const App = () => {
 
         {tab === "Home" && (
           <div>
-            <Home />
+            <Home toggleTab={toggleTab} />
           </div>
         )}
 

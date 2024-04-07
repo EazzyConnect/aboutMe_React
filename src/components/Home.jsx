@@ -5,7 +5,8 @@ import { Stack } from './sub-components/Items';
 import myPic from '../assets/images/eazzy.png';
 
 
-const Home = () => {
+const Home = ({ toggleTab }) => {
+
 
   const myTechStack = [
     {
@@ -99,6 +100,14 @@ const Home = () => {
     CV.click()
   }
 
+  const connectWithMe = () => {
+    toggleTab("Contact");
+  };
+
+  const viewMoreProject = () => {
+    toggleTab("Projects");
+  };
+
 
   return (
     <>
@@ -122,7 +131,7 @@ const Home = () => {
             <div id={homeCSS.heroBtnsWeb}>
               {/* <button id={homeCSS.hideDownloadBtn} onClick={downloadCV}>Download CV</button> */}
               <button id={homeCSS.downloadBtn} onClick={downloadCV}>Download CV</button>
-              <button id={homeCSS.ConnectBtn} >Connect With Me</button>
+              <button id={homeCSS.ConnectBtn} onClick={connectWithMe} >Connect With Me</button>
             </div>
           </div>
 
@@ -154,7 +163,7 @@ const Home = () => {
 
           <div id={homeCSS.heroBtns}>
             <button id={homeCSS.downloadBtn} onClick={downloadCV}>Download CV</button>
-            <button id={homeCSS.ConnectBtn} >Connect With Me</button>
+            <button id={homeCSS.ConnectBtn} onClick={connectWithMe} >Connect With Me</button>
           </div>
 
         </div>
@@ -241,9 +250,9 @@ const Home = () => {
             }
           </div>
 
-          {/* <div>
-            <button onClick={() => toggleTab("Projects")}>View More</button>
-          </div> */}
+          <div className={homeCSS.viewMore}>
+            <button id={homeCSS.viewMoreBtn} onClick={viewMoreProject}>View More</button>
+          </div>
 
         </div>
 

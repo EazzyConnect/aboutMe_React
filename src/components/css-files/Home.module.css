@@ -234,6 +234,25 @@ span {
   margin-bottom: 2rem;
 }
 
+.viewMore {
+  background-color: #583ebc;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#viewMoreBtn {
+  background-color: whitesmoke;
+  color: #181720;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#viewMoreBtn:hover {
+  background-color: #181720;
+  color: whitesmoke;
+}
+
 
 /* OUTRO SESSION */
 #outro {
