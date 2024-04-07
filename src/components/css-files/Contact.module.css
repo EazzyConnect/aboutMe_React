@@ -45,6 +45,11 @@
  gap: 20px;
 }
 
+#btnAndResult span {
+ font-size: smaller;
+ font-weight: lighter;
+}
+
 #contactForm button {
  padding: 5px 15px;
 }
@@ -113,6 +118,16 @@
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 1050px) {
+
+ #btnAndResult {
+  display: flex;
+  flex-direction: column;
+ }
+
+ #btnAndResult span {
+  font-size: x-small;
+  font-weight: lighter;
+ }
 
  /* OUTRO */
 

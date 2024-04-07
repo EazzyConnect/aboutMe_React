@@ -55,7 +55,7 @@ const Contact = () => {
 
           <div id={contactCSS.btnAndResult}>
             <button type="submit">Send 📩</button>
-            <span>{result}</span>
+            <span>{result}Message Sent Successfully ✅</span>
           </div>
 
         </form>

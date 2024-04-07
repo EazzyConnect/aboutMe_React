@@ -28,8 +28,17 @@
 
 #leftBottom {
  display: flex;
- width: 50%;
- justify-content: space-between;
+ flex-direction: column;
+ width: 55%;
+}
+
+#leftBottom2 {
+ margin-top: 5px;
+}
+
+#leftBottom3 {
+ text-align: right;
+ font-weight: lighter;
 }
 
 hr {

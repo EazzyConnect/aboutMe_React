@@ -12,9 +12,9 @@ const AboutMeProps = ({ title, organization, location, date, partFullTrainee }) 
    <div id={AboutMeCSS.bottomItem}>
     <div id={AboutMeCSS.leftBottom}>
      <p> <i className="fa-regular fa-building"></i> {organization} </p>
-     <p> <i className="fa-solid fa-location-dot"></i> {location} </p>
+     <p id={AboutMeCSS.leftBottom2}> <i className="fa-solid fa-location-dot"></i> {location} </p>
     </div>
-    <p> <i className="fa-solid fa-calendar"></i> {date} </p>
+    <p id={AboutMeCSS.leftBottom3}> <i className="fa-solid fa-calendar"></i> {date} </p>
    </div>
 
    <hr />
