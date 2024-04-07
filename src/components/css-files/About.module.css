@@ -75,3 +75,50 @@
  background-color: #583ebc;
  color: whitesmoke;
 }
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 750px) {
+
+ #about {
+  border: 1px solid red;
+  margin: 7rem 2rem 3rem 2rem;
+  width: 85%;
+ }
+
+ #abtTitle,
+ .expTitle {
+  font-size: larger;
+ }
+
+ #abtText {
+  font-size: small;
+ }
+
+ /* OUTRO */
+
+ #outro {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+ }
+
+ .leftOutro {
+  width: 100%;
+ }
+
+ .leftOutro ul {
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ .leftOutro li {
+  font-size: smaller;
+ }
+
+ .rightOutroText {
+  font-size: smaller;
+ }
+}

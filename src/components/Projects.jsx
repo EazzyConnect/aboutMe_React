@@ -69,7 +69,7 @@ const Projects = () => {
         <div className={projectCSS.projectHeading}>
 
           <h1 className={projectCSS.projectTitle}>My Projects</h1>
-          <h5 className={projectCSS.projectInfo}>Live projects</h5>
+          <h5 className={projectCSS.projectInfoTop}>Live projects</h5>
 
         </div>
 
@@ -99,37 +99,41 @@ const Projects = () => {
 
       <div>
 
-        <div>
-
-          <h3 className={projectCSS.projectTitle}>Inspired creation</h3>
-
-          <h5 className={projectCSS.projectInfo}>Explore a collection of cloned works, where I've recreated classic pieces of designs. </h5>
-
-        </div>
-
         <div className={projectCSS.clonedWorks}>
 
-          <div className={projectCSS.clonedWorks1}>
+          <div className={projectCSS.clonedWorksHead}>
 
-            <div className={projectCSS.clonedWorks1Left}>
-              <img id={projectCSS.img1} src="./src/assets/images/project6A.png" alt="img.png" />
-            </div>
+            <h3 className={projectCSS.projectTitle}>Inspired creation</h3>
 
-            <div className={projectCSS.clonedWorks1Right}>
-
-              <img id={projectCSS.img2} src="./src/assets/images/project6B.png" alt="img.png" />
-
-              <p id={projectCSS.img2Text}>Discover my rendition of a responsive web application, meticulously crafted to maintain functionality across various devices.</p>
-
-              <img id={projectCSS.img4} src="./src/assets/images/project2.png" alt="img.png" />
-
-            </div>
+            <h5 className={projectCSS.projectInfo}>Explore a collection of cloned works, where I've recreated classic pieces of designs. </h5>
 
           </div>
 
-          <div className={projectCSS.clonedWorks2}>
+          <div className={projectCSS.clonedWorksMain}>
 
-            <img id={projectCSS.img3} src="./src/assets/images/project7.jpg" alt="adidas.png" />
+            <div className={projectCSS.clonedWorks1}>
+
+              <div className={projectCSS.clonedWorks1Left}>
+                <img id={projectCSS.img1} src="./src/assets/images/project6A.png" alt="img.png" />
+              </div>
+
+              <div className={projectCSS.clonedWorks1Right}>
+
+                <img id={projectCSS.img2} src="./src/assets/images/project6B.png" alt="img.png" />
+
+                <p id={projectCSS.img2Text}>Discover my rendition of a responsive web application, meticulously crafted to maintain functionality across various devices.</p>
+
+                <img id={projectCSS.img4} src="./src/assets/images/project2.png" alt="img.png" />
+
+              </div>
+
+            </div>
+
+            <div className={projectCSS.clonedWorks2}>
+
+              <img id={projectCSS.img3} src="./src/assets/images/project7.jpg" alt="adidas.png" />
+
+            </div>
 
           </div>
 

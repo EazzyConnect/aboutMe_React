@@ -12,6 +12,10 @@
  border: 1px solid whitesmoke;
 }
 
+.mobile {
+ display: none;
+}
+
 #navImg {
  background-color: #583ebc;
  border-radius: 2rem;
@@ -45,3 +49,43 @@ button:hover {
  height: 2rem;
  border-radius: 50%;
 }
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 750px) {
+
+ .fullScreen {
+  display: none;
+ }
+
+ #navBtn {
+  gap: 1rem;
+ }
+
+ .mobile {
+  background-color: #583ebc;
+  border: 1px solid #583ebc;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+ }
+
+
+ .mobile:hover {
+  background-color: #583ebc;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+ }
+
+ #navBtn button i {
+  background-color: #583ebc;
+  color: whitesmoke;
+ }
+}
+
+/* #navBtn button i:hover {
+ background-color: #583ebc;
+ color: #583ebc;
+ box-shadow: 0 0 1rem rgba(2, 16, 95, 0.9);
+} */

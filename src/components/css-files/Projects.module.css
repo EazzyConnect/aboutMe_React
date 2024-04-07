@@ -6,7 +6,7 @@
  display: flex;
  /* grid-template-columns: repeat(3, 1fr); */
  flex-wrap: wrap;
- justify-content: space-between;
+ justify-content: center;
  align-items: center;
  gap: 3rem;
 }
@@ -16,6 +16,14 @@
  margin-bottom: 20px;
  font-size: x-large;
  font-weight: lighter;
+}
+
+.projectInfoTop {
+ text-align: center;
+ font-weight: lighter;
+ margin: 0 -4rem 1.25rem -4rem;
+ background-image: linear-gradient(#583ebc, whitesmoke);
+ padding: 1rem 0;
 }
 
 .projectInfo {
@@ -87,6 +95,13 @@
 .clonedWorks {
  background-color: #583ebc;
  padding: 4rem 2rem;
+ display: flex;
+ flex-direction: column;
+ /* justify-content: space-between; */
+ gap: 10px;
+}
+
+.clonedWorksMain {
  display: flex;
  justify-content: space-between;
  gap: 10px;
@@ -170,4 +185,75 @@
  width: 100%;
  height: 80vh;
  /* margin-top: 40px; */
+}
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 750px) {
+
+ #projects {
+  margin: 6rem 2rem 3rem 2rem;
+ }
+
+ .projectSamples {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .clonedWorksMain {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .clonedWorks1 {
+  width: 100%;
+ }
+
+ #img2Text {
+  font-weight: normal;
+  font-size: x-small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .clonedWorks2 {
+  width: 100%;
+  padding: 0.3rem;
+ }
+
+ #img3 {
+  width: 100%;
+  height: 400px;
+ }
+
+ #video1,
+ #video2 {
+  height: auto;
+ }
+
+ /* OUTRO */
+
+ #outro {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+ }
+
+ .leftOutro {
+  width: 100%;
+ }
+
+ .leftOutro ul {
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ .leftOutro li {
+  font-size: smaller;
+ }
+
+ .rightOutroText {
+  font-size: smaller;
+ }
 }

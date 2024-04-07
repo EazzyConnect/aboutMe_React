@@ -107,6 +107,7 @@ const Home = () => {
         <div id={homeCSS.heroSection}>
 
           <div id={homeCSS.heroLeft}>
+
             <h1 className={homeCSS.welcomeText}>
               Hi👋,
               <br />
@@ -114,9 +115,15 @@ const Home = () => {
               <br />
               A Software Engineer
             </h1>
+
             <h4 id={homeCSS.textBottom}> Ready to create extraordinary solutions with you! Let's embark on a journey of innovation and excellence together, building remarkable software that transforms ideas into reality. Together, we'll craft technology that leaves a lasting impact on the world. Let's build something amazing! 🚀
             </h4>
-            <button onClick={downloadCV}>Download CV</button>
+
+            <div id={homeCSS.heroBtnsWeb}>
+              {/* <button id={homeCSS.hideDownloadBtn} onClick={downloadCV}>Download CV</button> */}
+              <button id={homeCSS.downloadBtn} onClick={downloadCV}>Download CV</button>
+              <button id={homeCSS.ConnectBtn} >Connect With Me</button>
+            </div>
           </div>
 
           <div id={homeCSS.heroRight}>
@@ -143,6 +150,11 @@ const Home = () => {
 
             </div>
 
+          </div>
+
+          <div id={homeCSS.heroBtns}>
+            <button id={homeCSS.downloadBtn} onClick={downloadCV}>Download CV</button>
+            <button id={homeCSS.ConnectBtn} >Connect With Me</button>
           </div>
 
         </div>
@@ -179,8 +191,8 @@ const Home = () => {
 
           <div className={homeCSS.toolsHeading}>
 
-            <h3 className={homeCSS.title}>My Tech Stack</h3>
-            <h6 className={homeCSS.description}>Technologies I've recently worked with</h6>
+            <h3 className={homeCSS.toolsTitle}>My Tech Stack</h3>
+            <h6 className={homeCSS.toolsDescription}>Technologies I've recently worked with</h6>
 
           </div>
 
@@ -240,16 +252,19 @@ const Home = () => {
           <div className={homeCSS.leftOutro}>
 
             <ul>
-              <a href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" />
+              <a className={homeCSS.linkIconHide} href="http://linkedin.com/in/isaiah-okon" target="_blank" rel="noopener noreferrer">
+                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/linkedIn.png" alt="linkedIn" /> */}
+                <i className="fa-brands fa-linkedin"></i>
               </a>
 
-              <a href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" />
+              <a className={homeCSS.linkIconHide} href="https://twitter.com/Izaya4real" target="_blank" rel="noopener noreferrer">
+                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/twitter.png" alt="twitter" /> */}
+                <i className="fa-brands fa-twitter"></i>
               </a>
 
-              <a href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
-                <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" />
+              <a className={homeCSS.linkIconHide} href="https://github.com/EazzyConnect" target="_blank" rel="noopener noreferrer">
+                {/* <img className={homeCSS.linkIcon} src="./src/assets/icons/github.png" alt="github" /> */}
+                <i className="fa-brands fa-github"></i>
               </a>
 
               <li className={homeCSS.bottomList}><a href="tel:+2348085202397"><i className="fa-solid fa-phone"></i> +2348085202397</a></li>

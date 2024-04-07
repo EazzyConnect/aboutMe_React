@@ -36,3 +36,16 @@ hr {
  border: 1px solid black;
  margin: 20px 0;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 750px) {
+
+ #title {
+  font-weight: lighter;
+  font-size: medium;
+ }
+
+ #leftBottom p {
+  font-size: small;
+ }
+}

@@ -5,7 +5,7 @@
 
 #itemDiv {
  /* border: 3px solid red; */
- width: 30%;
+ width: 33%;
  height: 450px;
  border-radius: 1rem;
  box-shadow: 0 0 5px whitesmoke;
@@ -84,8 +84,8 @@
 
 #projectDiv {
  border: 3px solid #583ebc;
- width: 30%;
- height: 450px;
+ width: 45%;
+ height: 512px;
  border-radius: 1rem;
  box-shadow: 0 0 5px whitesmoke;
  padding: 0.5rem;
@@ -156,4 +156,20 @@
 
 #projectLinks a:hover {
  border-bottom: 1px solid black;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1050px) {
+ #itemDiv {
+  width: 100%;
+ }
+
+ .itemImg {
+  height: 70%;
+ }
+
+ #projectDiv {
+  width: 100%;
+ }
 }

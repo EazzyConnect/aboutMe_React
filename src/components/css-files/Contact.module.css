@@ -109,3 +109,34 @@
  background-color: #583ebc;
  color: whitesmoke;
 }
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1050px) {
+
+ /* OUTRO */
+
+ #outro {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+ }
+
+ .leftOutro {
+  width: 100%;
+ }
+
+ .leftOutro ul {
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ .leftOutro li {
+  font-size: smaller;
+ }
+
+ .rightOutroText {
+  font-size: smaller;
+ }
+}

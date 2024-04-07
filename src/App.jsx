@@ -26,10 +26,15 @@ const App = () => {
           </div>
 
           <div id={appCSS.navBtn}>
-            <button onClick={() => toggleTab("Home")}>Home</button>
-            <button onClick={() => toggleTab("About")}>About</button>
-            <button onClick={() => toggleTab("Projects")}>Projects</button>
-            <button onClick={() => toggleTab("Contact")}>Contact</button>
+            <button className={appCSS.fullScreen} onClick={() => toggleTab("Home")}>Home</button>
+            <button className={appCSS.fullScreen} onClick={() => toggleTab("About")}>About</button>
+            <button className={appCSS.fullScreen} onClick={() => toggleTab("Projects")}>Projects</button>
+            <button className={appCSS.fullScreen} onClick={() => toggleTab("Contact")}>Contact</button>
+
+            <button className={appCSS.mobile} title='Home' onClick={() => toggleTab("Home")}><i className="fa-solid fa-house-user"></i></button>
+            <button className={appCSS.mobile} title='About' onClick={() => toggleTab("About")}><i className="fa-solid fa-user"></i></button>
+            <button className={appCSS.mobile} title='Projects' onClick={() => toggleTab("Projects")}><i className="fa-solid fa-toolbox"></i></button>
+            <button className={appCSS.mobile} title='Contact' onClick={() => toggleTab("Contact")}><i className="fa-solid fa-envelope"></i></button>
           </div>
 
         </div>
