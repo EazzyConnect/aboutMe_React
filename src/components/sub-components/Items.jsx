@@ -32,6 +32,36 @@ const Items = ({ itemImg, itemAlt, itemTitle, itemDesc, itemStack, itemLivePrevi
 };
 
 
+export const ProjectsList = ({ projectImg, projectAlt, projectTitle, projectDesc, projectStack, projectLivePreview, projectGithub, projectPrevLink, projectCode, projectClass1, projectClass2 }) => {
+
+ return (
+  <>
+   <div id={itemCSS.projectDiv}>
+
+    <img className={itemCSS.projectImg} src={projectImg} alt={projectAlt} />
+
+    <div className={itemCSS.projectInner}>
+     <h3 id={itemCSS.projectInnerTitle}>{projectTitle}</h3>
+     <p id={itemCSS.projectInnerDesc}>{projectDesc}</p>
+    </div>
+
+    <div className={itemCSS.projectInner} id={itemCSS.projectInner2}>
+
+     <h4 className={itemCSS.projectBottom}>Tech Stack: {projectStack}</h4>
+
+     <div className={itemCSS.projectBottom} id={itemCSS.projectLinks}>
+      <a href={projectLivePreview} target="_blank" rel="noopener noreferrer"><i className={projectClass1}> {projectPrevLink}</i></a>
+      <a href={projectGithub} target="_blank" rel="noopener noreferrer"><i className={projectClass2}> {projectCode}</i></a>
+     </div>
+
+    </div>
+
+   </div>
+  </>
+ )
+};
+
+
 export const Stack = ({ stackImg, stackAlt }) => {
 
  return (

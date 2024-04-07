@@ -172,7 +172,7 @@ span {
 
 /* PROJECT SECTION */
 #projects {
- margin: 3rem 0;
+ margin-top: 3rem;
  background-color: #583ebc;
  /* background-image: linear-gradient(#583ebc, whitesmoke); */
  padding: 3rem 0;
@@ -215,9 +215,8 @@ span {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding: 0 4rem;
- margin-bottom: 2rem;
-
+ padding: 2rem 4rem;
+ /* margin-bottom: 2rem; */
 }
 
 .leftOutro ul {

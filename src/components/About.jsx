@@ -8,7 +8,7 @@ const About = () => {
   const myExperience = [
     {
       title: "Software Engineer (Backend)",
-      organization: "Monocle Ltd",
+      organization: "Monocle",
       location: "Lagos, Nigeria",
       date: "March 2024 - Current",
       partFullTrainee: "Part-Time"

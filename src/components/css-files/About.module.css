@@ -17,11 +17,13 @@
  text-align: justify;
 }
 
+/* OUTRO */
+
 #outro {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding: 3rem 4rem;
+ padding: 2rem 4rem;
  background-color: #583ebc;
 
 }

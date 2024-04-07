@@ -1,0 +1,111 @@
+#contact {
+ margin-top: 6rem;
+}
+
+#contactForm {
+ width: 60%;
+ padding: 2rem;
+ box-shadow: 0 0 10px rgb(54, 54, 54);
+ margin-left: 4rem;
+ border-radius: 5px;
+}
+
+#sendMessage {
+ font-weight: lighter;
+ padding-left: 4rem;
+}
+
+.formLabelInput {
+ margin-bottom: 10px;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.formLabelInput label {
+ font-size: small;
+}
+
+.formLabelInput input {
+ border-radius: 5px;
+ height: 30px;
+ padding-left: 5px;
+ border: 1px solid grey;
+}
+
+.formLabelInput textarea {
+ border-radius: 5px;
+ height: 100px;
+ padding-left: 5px;
+}
+
+#btnAndResult {
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+#contactForm button {
+ padding: 5px 15px;
+}
+
+/* OUTRO */
+
+#outro {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 2rem 4rem;
+ background-color: #583ebc;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+.leftOutro ul {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ list-style: none;
+ background-color: #583ebc;
+}
+
+.leftOutro ul li {
+ background-color: #583ebc;
+}
+
+.leftOutro ul a {
+ text-decoration: none;
+ background-color: #583ebc;
+ color: whitesmoke;
+ font-weight: lighter;
+ font-size: small;
+}
+
+.leftOutro ul a:hover {
+ text-decoration: underline;
+}
+
+.leftOutro ul i {
+ background-color: #583ebc;
+ color: whitesmoke;
+}
+
+.leftOutro ul a img {
+ background-color: #583ebc;
+ color: whitesmoke;
+}
+
+.rightOutro {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ background-color: #583ebc;
+}
+
+.rightOutroText {
+ font-weight: lighter;
+ font-size: small;
+ background-color: #583ebc;
+ color: whitesmoke;
+}

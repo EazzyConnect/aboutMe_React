@@ -1,0 +1,173 @@
+#projects {
+ margin: 6rem 4rem 3rem 4rem;
+}
+
+.projectSamples {
+ display: flex;
+ /* grid-template-columns: repeat(3, 1fr); */
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ gap: 3rem;
+}
+
+.projectTitle {
+ text-align: center;
+ margin-bottom: 20px;
+ font-size: x-large;
+ font-weight: lighter;
+}
+
+.projectInfo {
+ text-align: center;
+ font-weight: lighter;
+ margin-bottom: 20px;
+}
+
+/* OUTRO */
+
+#outro {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 2rem 4rem;
+ background-color: #583ebc;
+}
+
+.leftOutro ul {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ list-style: none;
+ background-color: #583ebc;
+}
+
+.leftOutro ul li {
+ background-color: #583ebc;
+}
+
+.leftOutro ul a {
+ text-decoration: none;
+ background-color: #583ebc;
+ color: whitesmoke;
+ font-weight: lighter;
+ font-size: small;
+}
+
+.leftOutro ul a:hover {
+ text-decoration: underline;
+}
+
+.leftOutro ul i {
+ background-color: #583ebc;
+ color: whitesmoke;
+}
+
+.leftOutro ul a img {
+ background-color: #583ebc;
+ color: whitesmoke;
+}
+
+.rightOutro {
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ background-color: #583ebc;
+}
+
+.rightOutroText {
+ font-weight: lighter;
+ font-size: small;
+ background-color: #583ebc;
+ color: whitesmoke;
+}
+
+/* CLONED WORKS */
+
+.clonedWorks {
+ background-color: #583ebc;
+ padding: 4rem 2rem;
+ display: flex;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.clonedWorks1 {
+ width: 70%;
+ display: flex;
+ align-items: center;
+}
+
+.clonedWorks2 {
+ width: 30%;
+}
+
+.clonedWorks1Left {
+ width: 50%;
+ height: 100%;
+}
+
+#img1 {
+ width: 100%;
+ height: 100%;
+}
+
+#img2 {
+ width: 100%;
+ height: 50%;
+}
+
+#img2Text {
+ text-wrap: wrap;
+ height: 10%;
+ font-weight: lighter;
+ font-size: smaller;
+ background-color: #583ebc;
+ padding: 10px;
+ color: whitesmoke;
+ border: 1px solid whitesmoke;
+}
+
+#img4 {
+ height: 39%;
+ width: 100%;
+ border: 1px solid whitesmoke;
+}
+
+.clonedWorks1Right {
+ width: 50%;
+ height: 100%;
+}
+
+#img3 {
+ width: 100%;
+ height: 100%;
+}
+
+.clonedWorks3 {
+ padding: 2rem;
+}
+
+#img5 {
+ width: 100%;
+ /* margin-bottom: 40px; */
+}
+
+.clonedWorks4,
+.clonedWorks5 {
+ padding: 2rem;
+}
+
+#disneyText {
+ text-align: center;
+ margin-bottom: 10px;
+ font-weight: lighter;
+ font-size: medium;
+}
+
+#video1,
+#video2 {
+ width: 100%;
+ height: 80vh;
+ /* margin-top: 40px; */
+}
