@@ -52,7 +52,9 @@ span {
 #followMe {
   rotate: 90deg;
   text-wrap: nowrap;
-  font-weight: lighter;
+  font-weight: normal;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #line {
@@ -377,7 +379,7 @@ a:hover {
   }
 
   .welcomeText {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 0.5rem;
   }
 
