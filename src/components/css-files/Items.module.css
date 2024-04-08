@@ -52,7 +52,8 @@
 .itemBottom {
  flex: 1;
  font-weight: 500;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-top: 10px;
 }
 
 .itemBottom:nth-child(1) {
@@ -69,15 +70,12 @@
 
 #itemInnerDesc {
  font-size: medium;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #itemLinks a {
  font-size: smaller;
-}
-
-#itemLinks a:hover {
- border-bottom: 1px solid black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* PROJECTS */
@@ -130,7 +128,7 @@
 .projectBottom {
  flex: 1;
  font-weight: 500;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .projectBottom:nth-child(1) {
@@ -147,16 +145,14 @@
 
 #projectInnerDesc {
  font-size: medium;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #projectLinks a {
  font-size: smaller;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#projectLinks a:hover {
- border-bottom: 1px solid black;
-}
 
 /* RESPONSIVENESS */
 

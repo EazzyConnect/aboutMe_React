@@ -135,12 +135,13 @@
 #img2Text {
  text-wrap: wrap;
  height: 10%;
- font-weight: lighter;
+ font-weight: normal;
  font-size: smaller;
  background-color: #583ebc;
  padding: 10px;
  color: whitesmoke;
  border: 1px solid whitesmoke;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #img4 {
