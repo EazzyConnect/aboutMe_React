@@ -167,8 +167,6 @@ const Projects = () => {
 
       </div>
 
-
-
       <div id={projectCSS.outro}>
 
         <div className={projectCSS.leftOutro}>

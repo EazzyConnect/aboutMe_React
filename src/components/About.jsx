@@ -6,13 +6,13 @@ import aboutCSS from './css-files/About.module.css';
 const About = () => {
 
   const myExperience = [
-    {
-      title: "Software Engineer (Backend)",
-      organization: "Monocle",
-      location: "Lagos, Nigeria",
-      date: "March 2024 - Current",
-      partFullTrainee: "Part-Time"
-    },
+    // {
+    //   title: "Software Engineer (Backend)",
+    //   organization: "Monocle",
+    //   location: "Lagos, Nigeria",
+    //   date: "March 2024 - Current",
+    //   partFullTrainee: "Part-Time"
+    // },
     {
       title: "Software Engineer (Full-Stack)",
       organization: "SAIL Innovation Lab",
