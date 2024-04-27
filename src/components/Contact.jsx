@@ -33,33 +33,36 @@ const Contact = () => {
   return (
     <div id={contactCSS.contact}>
 
-      <h2 id={contactCSS.sendMessage}>Send Message</h2>
+      <div id={contactCSS.messageBox}>
 
-      <div id={contactCSS.contactForm}>
+        <h2 id={contactCSS.sendMessage}>Send Message</h2>
 
-        <form onSubmit={onSubmit}>
-          <div className={contactCSS.formLabelInput}>
-            <label htmlFor="name">Full Name </label>
-            <input type="text" name="name" id="name" placeholder="Full Name" required />
-          </div>
+        <div id={contactCSS.contactForm}>
 
-          <div className={contactCSS.formLabelInput}>
-            <label htmlFor="email">Email </label>
-            <input type="email" name="email" id="email" placeholder="Your Email" required />
-          </div>
+          <form onSubmit={onSubmit}>
+            <div className={contactCSS.formLabelInput}>
+              <label htmlFor="name">Full Name </label>
+              <input type="text" name="name" id="name" placeholder="Full Name" required />
+            </div>
 
-          <div className={contactCSS.formLabelInput}>
-            <label htmlFor="message">Message </label>
-            <textarea name="message" id="message" placeholder="Your Message" required></textarea>
-          </div>
+            <div className={contactCSS.formLabelInput}>
+              <label htmlFor="email">Email </label>
+              <input type="email" name="email" id="email" placeholder="Your Email" required />
+            </div>
 
-          <div id={contactCSS.btnAndResult}>
-            <button type="submit">Send 📩</button>
-            <span>{result}</span>
-          </div>
+            <div className={contactCSS.formLabelInput}>
+              <label htmlFor="message">Message </label>
+              <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+            </div>
 
-        </form>
+            <div id={contactCSS.btnAndResult}>
+              <button type="submit">Send 📩</button>
+              <span>{result}</span>
+            </div>
 
+          </form>
+
+        </div>
 
       </div>
 

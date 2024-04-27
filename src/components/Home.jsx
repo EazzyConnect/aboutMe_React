@@ -53,7 +53,7 @@ const Home = ({ toggleTab }) => {
 
   const myProjects = [
     {
-      projectImg: "images/project1.png",
+      projectImg: "images/project1.webp",
       imgAlt: "CV-Maker App",
       projectTitle: "CV-Creator Web Application",
       projectDesc: "The application allows users to register, create, edit and download their CV for free.",
@@ -66,7 +66,7 @@ const Home = ({ toggleTab }) => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "images/project5.png",
+      projectImg: "images/project5.jpg",
       imgAlt: "EMS App",
       projectTitle: "Employment Management System",
       projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted.",
@@ -79,7 +79,7 @@ const Home = ({ toggleTab }) => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "images/project4.png",
+      projectImg: "images/project4.webp",
       imgAlt: "TipCalculator",
       projectTitle: "Tip Calculator",
       projectDesc: "The application is used to quickly determine the appropriate gratuity amount based on a percentage of the total bill.",
@@ -139,7 +139,7 @@ const Home = ({ toggleTab }) => {
 
             <img id={homeCSS.myPic} src={myPic} alt="isaiahOkon" />
 
-            <div id={homeCSS.heroLinks}>
+            {/* <div id={homeCSS.heroLinks}>
 
               <h4 id={homeCSS.followMe}>Follow me on: </h4>
 
@@ -157,7 +157,7 @@ const Home = ({ toggleTab }) => {
                 <img className={homeCSS.linkIcon} src="icons/github.png" alt="github" />
               </a>
 
-            </div>
+            </div> */}
 
           </div>
 
@@ -201,7 +201,7 @@ const Home = ({ toggleTab }) => {
           <div className={homeCSS.toolsHeading}>
 
             <h3 className={homeCSS.toolsTitle}>My Tech Stack</h3>
-            <h6 className={homeCSS.toolsDescription}>Technologies I've recently worked with</h6>
+            {/* <h6 className={homeCSS.toolsDescription}>Technologies I've recently worked with</h6> */}
 
           </div>
 
@@ -224,7 +224,7 @@ const Home = ({ toggleTab }) => {
           <div className={homeCSS.projectHeading}>
 
             <h3 className={homeCSS.projectTitle}>Projects</h3>
-            <h6 className={homeCSS.projectDescription}>Things I've built so far</h6>
+            {/* <h6 className={homeCSS.projectDescription}>Things I've built so far</h6> */}
 
           </div>
 
@@ -238,7 +238,7 @@ const Home = ({ toggleTab }) => {
                     itemAlt={project.imgAlt}
                     itemTitle={project.projectTitle}
                     itemDesc={project.projectDesc}
-                    itemStack={project.projectStack}
+                    // itemStack={project.projectStack}
                     itemLivePreview={project.projectLink}
                     itemClass1={project.class1}
                     itemPrevLink={project.livePreview}

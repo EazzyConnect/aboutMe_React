@@ -9,7 +9,7 @@ const Projects = () => {
 
   const myProjects = [
     {
-      projectImg: "images/project1.png",
+      projectImg: "images/project1.webp",
       imgAlt: "CV-Maker App",
       projectTitle: "CV-Creator Web Application",
       projectDesc: "The application allows users to register, create, edit and download their CV for free.",
@@ -22,10 +22,10 @@ const Projects = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "images/project5.png",
+      projectImg: "images/project5.jpg",
       imgAlt: "EMS App",
       projectTitle: "Employment Management System",
-      projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted. (For BACKEND consumption).",
+      projectDesc: "The application allows employers to post jobs and job seekers to apply for jobs posted.",
       projectStack: "NodeJs, ExpressJs, MongoDb",
       projectLink: "https://employment-mgt-sys.onrender.com/unauth/all-jobs",
       projectCode: "https://github.com/EazzyConnect/Employment-Mgt-System",
@@ -35,7 +35,7 @@ const Projects = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "images/project4.png",
+      projectImg: "images/project4.webp",
       imgAlt: "TipCalculator",
       projectTitle: "Tip Calculator",
       projectDesc: "The application is used to quickly determine the appropriate gratuity amount based on a percentage of the total bill.",
@@ -48,7 +48,7 @@ const Projects = () => {
       class2: "fa-brands fa-github"
     },
     {
-      projectImg: "images/project9.png",
+      projectImg: "images/project9.jpg",
       imgAlt: "myTodoApp",
       projectTitle: "My Todo App",
       projectDesc: "A sleek and intuitive to-do app designed to streamline your productivity and organize your tasks effortlessly",
@@ -69,7 +69,7 @@ const Projects = () => {
         <div className={projectCSS.projectHeading}>
 
           <h1 className={projectCSS.projectTitle}>My Projects</h1>
-          <h5 className={projectCSS.projectInfoTop}>Live projects</h5>
+          {/* <h5 className={projectCSS.projectInfoTop}>Live projects</h5> */}
 
         </div>
 
@@ -99,7 +99,7 @@ const Projects = () => {
 
       <div>
 
-        <div className={projectCSS.clonedWorks}>
+        {/* <div className={projectCSS.clonedWorks}>
 
           <div className={projectCSS.clonedWorksHead}>
 
@@ -137,7 +137,7 @@ const Projects = () => {
 
           </div>
 
-        </div>
+        </div> */}
 
         {/* <div className={projectCSS.clonedWorks3}>
 

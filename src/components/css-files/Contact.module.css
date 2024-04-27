@@ -1,18 +1,26 @@
 #contact {
  margin-top: 6rem;
+ height: 70vh;
+}
+
+#messageBox{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
 }
 
 #contactForm {
- width: 60%;
- padding: 2rem;
+ width: 40%;
+ padding: 2rem 2rem 1rem 2rem;
  box-shadow: 0 0 10px rgb(54, 54, 54);
- margin-left: 4rem;
  border-radius: 5px;
 }
 
 #sendMessage {
  font-weight: lighter;
- padding-left: 4rem;
+ margin-bottom: 1rem;
 }
 
 .formLabelInput {
@@ -41,8 +49,9 @@
 
 #btnAndResult {
  display: flex;
+ flex-direction: column;
  align-items: center;
- gap: 20px;
+ gap: 10px;
 }
 
 #btnAndResult span {
@@ -52,6 +61,8 @@
 
 #contactForm button {
  padding: 5px 15px;
+ width: 100%;
+ border-radius: 5px;
 }
 
 /* OUTRO */
@@ -119,6 +130,10 @@
 
 @media only screen and (max-width: 1050px) {
 
+ #contactForm {
+   width: 80%;
+  }
+
  #btnAndResult {
   display: flex;
   flex-direction: column;
@@ -131,20 +146,10 @@
 
  /* OUTRO */
 
- #outro {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 2rem;
- }
-
- .leftOutro {
-  width: 100%;
- }
-
  .leftOutro ul {
   gap: 0.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* justify-content: center;
+  flex-wrap: wrap; */
  }
 
  .leftOutro li {
@@ -154,4 +159,22 @@
  .rightOutroText {
   font-size: smaller;
  }
+}
+
+@media only screen and (max-width: 750px) {
+  #outro {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+
+  .leftOutro {
+    width: 100%;
+  }
+
+  .leftOutro ul {
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
