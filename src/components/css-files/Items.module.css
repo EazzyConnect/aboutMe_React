@@ -196,13 +196,19 @@
 }
 
 @media only screen and (max-width: 760px) {
- #itemDiv {
-  width: 100%;
-  height: 30rem;
- 
- }
- #projectDiv {
-  width: 100%;
-  height: 30rem;
- }
+
+  .stackImg {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  #itemDiv {
+    width: 100%;
+    height: 30rem;
+  }
+
+  #projectDiv {
+    width: 100%;
+    height: 30rem;
+  }
 }

@@ -162,6 +162,27 @@
 }
 
 @media only screen and (max-width: 750px) {
+
+  #contact {
+    margin-top: 4rem;
+  }
+
+  #contactForm{
+    padding: 0.5rem 1rem;
+  }
+
+  .formLabelInput {
+    margin-bottom: 5px;
+  }
+
+  .formLabelInput textarea{
+    height: 70%;
+  }
+
+  #contactForm button{
+    font-size: small;
+  }
+
   #outro {
     display: flex;
     flex-direction: column;

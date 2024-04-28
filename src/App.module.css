@@ -16,6 +16,14 @@
  display: none;
 }
 
+#mobileMenu{
+ display: none;
+}
+
+.menuTabs{
+ display: none;
+}
+
 #navImg {
  background-color: #583ebc;
  border-radius: 2rem;
@@ -89,3 +97,65 @@ button:hover {
  color: #583ebc;
  box-shadow: 0 0 1rem rgba(2, 16, 95, 0.9);
 } */
+
+
+@media only screen and (max-width: 560px) {
+
+  .fullScreen {
+   display: none;
+  }
+
+  .mobile {
+   display: none;
+  }
+
+  #mobileMenu{
+  display: block;
+  background-color: #583ebc;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: x-large;
+ }
+
+ #cancelDiv{
+  background: whitesmoke;
+ }
+
+ #cancelMenu{
+  display: block;
+  background-color: whitesmoke;
+  cursor: pointer;
+  font-size: x-large;
+  float: right;
+  margin-bottom: 2rem;
+ }
+
+ .menuTabs{
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 8rem;
+  height: 100vh;
+  padding: 1rem;
+  border: 1px solid #583ebc;
+  transition: right 0.5s;
+ }
+
+ .showTab{
+  background-color: whitesmoke;
+  border: 1px solid #583ebc;
+  color: #181720;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  font-size: medium;
+ }
+
+ .showTab:hover{
+  box-shadow: 0 0 0.2rem rgba(2, 16, 95, 0.9);
+ }
+
+}

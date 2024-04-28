@@ -2,7 +2,7 @@ import React from 'react';
 import homeCSS from './css-files/Home.module.css';
 import Items from './sub-components/Items';
 import { Stack } from './sub-components/Items';
-import myPic from '../assets/images/eazzy.png';
+import myPic from '/images/eazzy.png';
 
 
 const Home = ({ toggleTab }) => {
