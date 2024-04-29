@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Home from './components/Home';
 import About from './components/About';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Contact from './components/Contact';
 import appCSS from './App.module.css';
 import myLogo from '/icons/logo.png'
@@ -44,7 +44,7 @@ const App = () => {
 
                 <button className={appCSS.showTab} onClick={() => toggleTab("Home")}>Home</button>
                 <button className={appCSS.showTab} onClick={() => toggleTab("About")}>About</button>
-                <button className={appCSS.showTab} onClick={() => toggleTab("Projects")}>Projects</button>
+                {/* <button className={appCSS.showTab} onClick={() => toggleTab("Projects")}>Projects</button> */}
                 <button className={appCSS.showTab} onClick={() => toggleTab("Contact")}>Contact</button>
               </div>
               :
@@ -53,12 +53,12 @@ const App = () => {
 
             <button className={appCSS.fullScreen} onClick={() => toggleTab("Home")}>Home</button>
             <button className={appCSS.fullScreen} onClick={() => toggleTab("About")}>About</button>
-            <button className={appCSS.fullScreen} onClick={() => toggleTab("Projects")}>Projects</button>
+            {/* <button className={appCSS.fullScreen} onClick={() => toggleTab("Projects")}>Projects</button> */}
             <button className={appCSS.fullScreen} onClick={() => toggleTab("Contact")}>Contact</button>
 
             <button className={appCSS.mobile} title='Home' onClick={() => toggleTab("Home")}><i className="fa-solid fa-house-user"></i></button>
             <button className={appCSS.mobile} title='About' onClick={() => toggleTab("About")}><i className="fa-solid fa-user"></i></button>
-            <button className={appCSS.mobile} title='Projects' onClick={() => toggleTab("Projects")}><i className="fa-solid fa-toolbox"></i></button>
+            {/* <button className={appCSS.mobile} title='Projects' onClick={() => toggleTab("Projects")}><i className="fa-solid fa-toolbox"></i></button> */}
             <button className={appCSS.mobile} title='Contact' onClick={() => toggleTab("Contact")}><i className="fa-solid fa-envelope"></i></button>
 
             <div>
@@ -81,11 +81,11 @@ const App = () => {
           </div>
         )}
 
-        {tab === "Projects" && (
+        {/* {tab === "Projects" && (
           <div>
             <Projects />
           </div>
-        )}
+        )} */}
 
         {tab === "Contact" && (
           <div>

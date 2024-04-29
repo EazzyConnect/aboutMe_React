@@ -90,6 +90,19 @@ const Home = ({ toggleTab }) => {
       viewCode: "View Code",
       class1: "fa-solid fa-link",
       class2: "fa-brands fa-github"
+    },
+    {
+      projectImg: "images/project9.jpg",
+      imgAlt: "myTodoApp",
+      projectTitle: "My Todo App",
+      projectDesc: "A sleek and intuitive to-do app designed to streamline your productivity and organize your tasks effortlessly",
+      projectStack: "Typescript, HTML, CSS",
+      projectLink: "https://my-todo-application.onrender.com/",
+      projectCode: "https://github.com/EazzyConnect/SAIL_todoTask/tree/main/isaiahTodoTask",
+      livePreview: "Live Preview",
+      viewCode: "View Code",
+      class1: "fa-solid fa-link",
+      class2: "fa-brands fa-github"
     }
   ];
 
@@ -104,9 +117,9 @@ const Home = ({ toggleTab }) => {
     toggleTab("Contact");
   };
 
-  const viewMoreProject = () => {
-    toggleTab("Projects");
-  };
+  // const viewMoreProject = () => {
+  //   toggleTab("Projects");
+  // };
 
 
   return (
@@ -250,9 +263,9 @@ const Home = ({ toggleTab }) => {
             }
           </div>
 
-          <div className={homeCSS.viewMore}>
+          {/* <div className={homeCSS.viewMore}>
             <button id={homeCSS.viewMoreBtn} onClick={viewMoreProject}>View More</button>
-          </div>
+          </div> */}
 
         </div>
 
