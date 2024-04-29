@@ -316,7 +316,7 @@ a:hover {
 }
 
 /* RESPONSIVENESS */
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1085px) {
   #heroSection {
     display: flex;
     align-items: center;
@@ -353,7 +353,8 @@ a:hover {
 
   .projectSamples {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     padding: 0 4rem;
   }
 

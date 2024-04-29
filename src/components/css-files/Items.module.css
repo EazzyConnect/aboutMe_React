@@ -171,15 +171,19 @@
 
 /* RESPONSIVENESS */
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1120px) {
  #itemDiv {
-  width: 70%;
+  width: 40%;
   height: 30rem;
  }
 
  /* .itemImg {
   height: 70%;
  } */
+
+  .itemImgDiv{
+    height: 50%;
+  }
 
  #projectDiv {
   width: 40%;
@@ -201,14 +205,28 @@
     width: 4rem;
     height: 4rem;
   }
+
+  .itemImgDiv{
+    height: 50%;
+  }
   
   #itemDiv {
-    width: 100%;
-    height: 30rem;
+    width: 70%;
+    height: 25rem;
   }
 
   #projectDiv {
     width: 100%;
     height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .itemImgDiv {
+    height: 45%;
+  }
+
+  #itemDiv {
+    width: 85%;
   }
 }
