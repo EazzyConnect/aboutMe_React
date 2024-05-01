@@ -23,7 +23,7 @@ const Items = ({ itemImg, itemAlt, itemTitle, itemDesc, itemStack, itemLivePrevi
 
      <div className={itemCSS.itemBottom} id={itemCSS.itemLinks}>
       <a href={itemLivePreview} target="_blank" rel="noopener noreferrer"><i className={itemClass1}> </i>{itemPrevLink}</a>
-      <a href={itemGithub} target="_blank" rel="noopener noreferrer"><i className={itemClass2}> </i>{itemCode}</a>
+      {/* <a href={itemGithub} target="_blank" rel="noopener noreferrer"><i className={itemClass2}> </i>{itemCode}</a> */}
      </div>
 
     </div>

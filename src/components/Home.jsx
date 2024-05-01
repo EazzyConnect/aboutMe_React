@@ -142,7 +142,6 @@ const Home = ({ toggleTab }) => {
             </h4>
 
             <div id={homeCSS.heroBtnsWeb}>
-              {/* <button id={homeCSS.hideDownloadBtn} onClick={downloadCV}>Download CV</button> */}
               <button id={homeCSS.downloadBtn} onClick={downloadCV}>Download CV</button>
               <button id={homeCSS.ConnectBtn} onClick={connectWithMe} >Connect With Me</button>
             </div>
