@@ -12,7 +12,7 @@ const About = () => {
     //   partFullTrainee: "Part-Time"
     // },
     {
-      title: "Software Engineer (Full-Stack)",
+      title: "Software Engineer (MERN-Stack)",
       organization: "SAIL Innovation Lab",
       location: "Lagos, Nigeria",
       date: "Nov 2023 - May 2024",
