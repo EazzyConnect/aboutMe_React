@@ -4,13 +4,13 @@ import aboutCSS from "./css-files/About.module.css";
 
 const About = () => {
   const myExperience = [
-    // {
-    //   title: "Software Engineer (Backend)",
-    //   organization: "Monocle",
-    //   location: "Lagos, Nigeria",
-    //   date: "March 2024 - Current",
-    //   partFullTrainee: "Part-Time"
-    // },
+    {
+      title: "Software Engineer (Backend)",
+      organization: "EPIC Payment Technologies Ltd",
+      location: "Lagos, Nigeria",
+      date: "June 2024 - Current",
+      partFullTrainee: "Full-Time",
+    },
     {
       title: "Software Engineer (MERN-Stack)",
       organization: "SAIL Innovation Lab",
