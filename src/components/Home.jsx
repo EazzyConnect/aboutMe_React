@@ -119,21 +119,21 @@ const Home = ({ toggleTab }) => {
       class1: "fa-solid fa-link",
       class2: "fa-brands fa-github",
     },
-    {
-      projectImg: "images/project9.jpg",
-      imgAlt: "myTodoApp",
-      projectTitle: "My Todo App",
-      projectDesc:
-        "A sleek and intuitive to-do app designed to streamline your productivity and organize your tasks effortlessly",
-      projectStack: "Typescript, HTML, CSS",
-      projectLink: "https://my-todo-application.onrender.com/",
-      projectCode:
-        "https://github.com/EazzyConnect/SAIL_todoTask/tree/main/isaiahTodoTask",
-      livePreview: "Live Preview",
-      viewCode: "View Code",
-      class1: "fa-solid fa-link",
-      class2: "fa-brands fa-github",
-    },
+    // {
+    //   projectImg: "images/project9.jpg",
+    //   imgAlt: "myTodoApp",
+    //   projectTitle: "My Todo App",
+    //   projectDesc:
+    //     "A sleek and intuitive to-do app designed to streamline your productivity and organize your tasks effortlessly",
+    //   projectStack: "Typescript, HTML, CSS",
+    //   projectLink: "https://my-todo-application.onrender.com/",
+    //   projectCode:
+    //     "https://github.com/EazzyConnect/SAIL_todoTask/tree/main/isaiahTodoTask",
+    //   livePreview: "Live Preview",
+    //   viewCode: "View Code",
+    //   class1: "fa-solid fa-link",
+    //   class2: "fa-brands fa-github",
+    // },
   ];
 
   const downloadCV = () => {
