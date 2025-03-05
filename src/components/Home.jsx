@@ -19,16 +19,12 @@ const Home = ({ toggleTab }) => {
       alt: "JavaScript",
     },
     {
-      image: "images/html.png",
-      alt: "HTML",
+      image: "images/mysql.png",
+      alt: "mySql",
     },
     {
       image: "images/css.png",
       alt: "CSS",
-    },
-    {
-      image: "images/typescript.png",
-      alt: "TypeScript",
     },
     {
       image: "images/mongoDb.jpg",
@@ -46,18 +42,50 @@ const Home = ({ toggleTab }) => {
       image: "images/vsCode.jpg",
       alt: "VsCode",
     },
+    {
+      image: "images/typescript.png",
+      alt: "TypeScript",
+    },
   ];
 
   const myProjects = [
+    {
+      projectImg: "images/buzinesshours.jpg",
+      imgAlt: "buzinesshours",
+      projectTitle: "BuzinessHours App",
+      projectDesc:
+        "A real-time app for businesses to give live updates to users (customers); including live chat",
+      projectStack: "React, Node.js, Express.js",
+      projectLink: "https://www.buzinesshours.com/",
+      projectCode: "",
+      livePreview: "Live Preview",
+      viewCode: "View Code",
+      class1: "fa-solid fa-link",
+      class2: "fa-brands fa-github",
+    },
     {
       projectImg: "images/project1.webp",
       imgAlt: "CV-Maker App",
       projectTitle: "CV-Creator Web Application",
       projectDesc:
-        "The application allows users to register, create, edit and download their CV for free.",
+        "The application allows users to register, create, edit and download their CV for free",
       projectStack: "Node.js, HBS, JavaScript, CSS, MongoDb",
       projectLink: "https://cv-maker-app.onrender.com/home",
       projectCode: "https://github.com/EazzyConnect/cvMaker_App",
+      livePreview: "Live Preview",
+      viewCode: "View Code",
+      class1: "fa-solid fa-link",
+      class2: "fa-brands fa-github",
+    },
+    {
+      projectImg: "images/ai_img.png",
+      imgAlt: "chatbot",
+      projectTitle: "AI Chatbot",
+      projectDesc:
+        "A free chatbot designed to engage users in real-time interaction, dynamic and intelligent conversations",
+      projectStack: "React, Node.js, Express.js",
+      projectLink: "https://sail-aichatbot.onrender.com/",
+      projectCode: "",
       livePreview: "Live Preview",
       viewCode: "View Code",
       class1: "fa-solid fa-link",
@@ -68,7 +96,7 @@ const Home = ({ toggleTab }) => {
       imgAlt: "EMS App",
       projectTitle: "Employment Management System",
       projectDesc:
-        "The application allows employers to post jobs and job seekers to apply for jobs posted.",
+        "The application allows employers to post jobs and job seekers to apply for jobs posted",
       projectStack: "React.js, Node.js, Express.js, MongoDb",
       projectLink: "https://work-force-hub.onrender.com/",
       projectCode: "https://github.com/EazzyConnect/workForceHub_App",
@@ -82,7 +110,7 @@ const Home = ({ toggleTab }) => {
       imgAlt: "TipCalculator",
       projectTitle: "Tip Calculator",
       projectDesc:
-        "The application is used to quickly determine the appropriate gratuity amount based on a percentage of the total bill.",
+        "The application is used to quickly determine the appropriate gratuity amount based on a percentage of the total bill",
       projectStack: "JavaScript, HTML, CSS",
       projectLink: "https://task-manager-zse1.onrender.com",
       projectCode: "https://github.com/EazzyConnect/taskManager",
@@ -101,20 +129,6 @@ const Home = ({ toggleTab }) => {
       projectLink: "https://my-todo-application.onrender.com/",
       projectCode:
         "https://github.com/EazzyConnect/SAIL_todoTask/tree/main/isaiahTodoTask",
-      livePreview: "Live Preview",
-      viewCode: "View Code",
-      class1: "fa-solid fa-link",
-      class2: "fa-brands fa-github",
-    },
-    {
-      projectImg: "images/ai_img.png",
-      imgAlt: "chatbot",
-      projectTitle: "AI Chatbot",
-      projectDesc:
-        "A free chatbot designed to engage users in real-time interaction, dynamic and intelligent conversations",
-      projectStack: "React, Node.js, Express.js",
-      projectLink: "https://sail-aichatbot.onrender.com/",
-      projectCode: "",
       livePreview: "Live Preview",
       viewCode: "View Code",
       class1: "fa-solid fa-link",
