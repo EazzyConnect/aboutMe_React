@@ -13,10 +13,17 @@ const About = () => {
     },
     {
       title: "Software Engineer (MERN-Stack)",
+      organization: "BusinessOpenHours Ltd",
+      location: "USA (Remote)",
+      date: "April 2024 - Current",
+      partFullTrainee: "Part-Time",
+    },
+    {
+      title: "Software Engineer (MERN-Stack)",
       organization: "SAIL Innovation Lab",
       location: "Lagos, Nigeria",
       date: "Nov 2023 - May 2024",
-      partFullTrainee: "Part-Time",
+      partFullTrainee: "Trainee",
     },
     {
       title: "Software Engineer (Backend)",
@@ -50,6 +57,13 @@ const About = () => {
 
   const myTrainingAndCert = [
     {
+      title: "Certificate in Full-Stack Web Development",
+      organization: "SAIL Innovation Lab",
+      location: "Lagos, Nigeria",
+      date: "April 2024",
+      partFullTrainee: "Trainee",
+    },
+    {
       title: "Certificate in Backend Web Development",
       organization: "TechQuest STEM Academy",
       location: "Lagos, Nigeria",
@@ -81,10 +95,12 @@ const About = () => {
         <div id={aboutCSS.abtMe}>
           <h1 id={aboutCSS.abtTitle}>About Me</h1>
           <h3 id={aboutCSS.abtText}>
-            A dedicated and innovative software engineer striving to connect,
-            unify and make a great impact in the world of technology. A creative
-            thinker, adept in software development and working with various data
-            structures.
+            Innovative and results-driven MERN-stack Software Engineer with 2+
+            years of experience building scalable, user-centric web
+            applications. Proven ability to collaborate effectively with
+            cross-functional teams and deliver impactful, technology-driven
+            solutions. Committed to continuous learning and advancing software
+            excellence through clean code, modern tools, and best practices.
           </h3>
         </div>
 
