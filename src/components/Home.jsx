@@ -138,7 +138,7 @@ const Home = ({ toggleTab }) => {
 
   const downloadCV = () => {
     const CV = document.createElement("a");
-    CV.href = "images/Isaiah-Okon-CV.pdf";
+    CV.href = "cv/CV-Isaiah-Okon.pdf";
     CV.download = "Isaiah-Okon-CV.pdf";
     CV.click();
   };

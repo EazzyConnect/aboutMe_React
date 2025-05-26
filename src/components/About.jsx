@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       title: "Software Engineer (MERN-Stack)",
-      organization: "BusinessOpenHours Ltd",
+      organization: "BusinessHours LLC",
       location: "USA (Remote)",
       date: "April 2024 - Current",
       partFullTrainee: "Part-Time",
@@ -29,7 +29,7 @@ const About = () => {
       title: "Software Engineer (Backend)",
       organization: "TechQuest STEM Academy",
       location: "Lagos, Nigeria",
-      date: "Feb 2023 - Aug 2023",
+      date: "July 2023 - Sept 2023",
       partFullTrainee: "Trainee",
     },
     {
@@ -67,7 +67,7 @@ const About = () => {
       title: "Certificate in Backend Web Development",
       organization: "TechQuest STEM Academy",
       location: "Lagos, Nigeria",
-      date: "Aug 2023",
+      date: "Sept 2023",
       partFullTrainee: "Trainee",
     },
     {
