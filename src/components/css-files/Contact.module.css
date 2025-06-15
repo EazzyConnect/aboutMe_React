@@ -1,173 +1,174 @@
 #contact {
- margin-top: 6rem;
- height: 70vh;
+  margin-top: 6rem;
+  height: 70vh;
 }
 
-#messageBox{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- height: 100%;
+#messageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 #contactForm {
- width: 40%;
- padding: 2rem 2rem 1rem 2rem;
- box-shadow: 0 0 10px rgb(54, 54, 54);
- border-radius: 5px;
+  width: 40%;
+  padding: 2rem 2rem 1rem 2rem;
+  box-shadow: 0 0 10px rgb(54, 54, 54);
+  border-radius: 5px;
 }
 
 #sendMessage {
- font-weight: lighter;
- margin-bottom: 1rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
 }
 
 .formLabelInput {
- margin-bottom: 10px;
- width: 100%;
- display: flex;
- flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .formLabelInput label {
- font-size: small;
+  font-size: small;
 }
 
 .formLabelInput input {
- border-radius: 5px;
- height: 30px;
- padding-left: 5px;
- border: 1px solid grey;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 5px;
+  border: 1px solid grey;
 }
 
 .formLabelInput textarea {
- border-radius: 5px;
- height: 100px;
- padding-left: 5px;
+  border-radius: 5px;
+  height: 100px;
+  padding-left: 5px;
 }
 
 #btnAndResult {
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 #btnAndResult span {
- font-size: smaller;
- font-weight: lighter;
+  font-size: smaller;
+  font-weight: lighter;
 }
 
 #contactForm button {
- padding: 5px 15px;
- width: 100%;
- border-radius: 5px;
+  padding: 5px 15px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 /* OUTRO */
 
 #outro {
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 2rem 4rem;
- background-color: #583ebc;
- position: fixed;
- bottom: 0;
- width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .leftOutro ul {
- display: flex;
- align-items: center;
- gap: 1rem;
- list-style: none;
- background-color: #583ebc;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  background-color: black;
 }
 
 .leftOutro ul li {
- background-color: #583ebc;
+  background-color: black;
 }
 
 .leftOutro ul a {
- text-decoration: none;
- background-color: #583ebc;
- color: whitesmoke;
- font-weight: lighter;
- font-size: small;
+  text-decoration: none;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .leftOutro ul a:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .leftOutro ul i {
- background-color: #583ebc;
- color: whitesmoke;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .leftOutro ul a img {
- background-color: #583ebc;
- color: whitesmoke;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .rightOutro {
- display: flex;
- align-items: center;
- gap: 1rem;
- background-color: #583ebc;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: black;
 }
 
 .rightOutroText {
- font-weight: lighter;
- font-size: small;
- background-color: #583ebc;
- color: whitesmoke;
+  font-weight: lighter;
+  font-size: small;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 1050px) {
-
- #contactForm {
-   width: 80%;
+  #contactForm {
+    width: 80%;
   }
 
- #btnAndResult {
-  display: flex;
-  flex-direction: column;
- }
+  #btnAndResult {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
 
- #btnAndResult span {
-  font-size: x-small;
-  font-weight: lighter;
- }
+  #btnAndResult span {
+    font-size: x-small;
+    font-weight: lighter;
+  }
 
- /* OUTRO */
+  /* OUTRO */
 
- .leftOutro ul {
-  gap: 0.5rem;
-  /* justify-content: center;
+  .leftOutro ul {
+    gap: 0.5rem;
+    /* justify-content: center;
   flex-wrap: wrap; */
- }
+  }
 
- .leftOutro li {
-  font-size: smaller;
- }
+  .leftOutro li {
+    font-size: smaller;
+  }
 
- .rightOutroText {
-  font-size: smaller;
- }
+  .rightOutroText {
+    font-size: smaller;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-
   #contact {
     margin-top: 4rem;
   }
 
-  #contactForm{
+  #contactForm {
     padding: 0.5rem 1rem;
   }
 
@@ -175,11 +176,11 @@
     margin-bottom: 5px;
   }
 
-  .formLabelInput textarea{
+  .formLabelInput textarea {
     height: 70%;
   }
 
-  #contactForm button{
+  #contactForm button {
     font-size: small;
   }
 

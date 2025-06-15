@@ -9,50 +9,50 @@ const About = () => {
       organization: "EPIC Payment Technologies Ltd",
       location: "Lagos, Nigeria",
       date: "June 2024 - Current",
-      partFullTrainee: "Full-Time",
+      partFullTrainee: "Hybrid",
     },
     {
       title: "Software Engineer (MERN-Stack)",
       organization: "BusinessHours LLC",
       location: "USA (Remote)",
       date: "April 2024 - Current",
-      partFullTrainee: "Part-Time",
+      partFullTrainee: "Remote",
     },
-    {
-      title: "Software Engineer (MERN-Stack)",
-      organization: "SAIL Innovation Lab",
-      location: "Lagos, Nigeria",
-      date: "Nov 2023 - May 2024",
-      partFullTrainee: "Trainee",
-    },
-    {
-      title: "Software Engineer (Backend)",
-      organization: "TechQuest STEM Academy",
-      location: "Lagos, Nigeria",
-      date: "July 2023 - Sept 2023",
-      partFullTrainee: "Trainee",
-    },
-    {
-      title: "Software Developer (Frontend)",
-      organization: "Zuri Cohort Bootcamp",
-      location: "Lagos, Nigeria",
-      date: "Oct 2022 - Nov 2022",
-      partFullTrainee: "Trainee",
-    },
-    {
-      title: "Academic Tutor",
-      organization: "Greater Scholar International School",
-      location: "Lagos, Nigeria",
-      date: "Sept 2019 - Aug 2022",
-      partFullTrainee: "Full-Time",
-    },
-    {
-      title: "National Service",
-      organization: "National Youth Service Corps",
-      location: "Imo, Nigeria",
-      date: "May 2015 - May 2016",
-      partFullTrainee: "Full-Time",
-    },
+    // {
+    //   title: "Software Engineer (MERN-Stack)",
+    //   organization: "SAIL Innovation Lab",
+    //   location: "Lagos, Nigeria",
+    //   date: "Nov 2023 - May 2024",
+    //   partFullTrainee: "Trainee",
+    // },
+    // {
+    //   title: "Software Engineer (Backend)",
+    //   organization: "TechQuest STEM Academy",
+    //   location: "Lagos, Nigeria",
+    //   date: "July 2023 - Sept 2023",
+    //   partFullTrainee: "Trainee",
+    // },
+    // {
+    //   title: "Software Developer (Frontend)",
+    //   organization: "Zuri Cohort Bootcamp",
+    //   location: "Lagos, Nigeria",
+    //   date: "Oct 2022 - Nov 2022",
+    //   partFullTrainee: "Trainee",
+    // },
+    // {
+    //   title: "Academic Tutor",
+    //   organization: "Greater Scholar International School",
+    //   location: "Lagos, Nigeria",
+    //   date: "Sept 2019 - Aug 2022",
+    //   partFullTrainee: "Full-Time",
+    // },
+    // {
+    //   title: "National Service",
+    //   organization: "National Youth Service Corps",
+    //   location: "Imo, Nigeria",
+    //   date: "May 2015 - May 2016",
+    //   partFullTrainee: "Full-Time",
+    // },
   ];
 
   const myTrainingAndCert = [
@@ -203,8 +203,8 @@ const About = () => {
         </div>
 
         <div className={aboutCSS.rightOutro}>
-          <h4 className={aboutCSS.rightOutroText}>©️ 2024</h4>
-          <h4 className={aboutCSS.rightOutroText}>IsaiahOkon</h4>
+          <p className={aboutCSS.rightOutroText}>© 2024</p>
+          <p className={aboutCSS.rightOutroText}>IsaiahOkon</p>
         </div>
       </div>
     </>

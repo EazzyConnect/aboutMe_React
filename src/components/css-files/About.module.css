@@ -1,123 +1,122 @@
 #about {
- margin: 7rem 4rem 3rem 4rem;
- width: 60%;
+  margin: 7rem 4rem 3rem 4rem;
+  width: 60%;
 }
 
 #abtTitle,
 .expTitle {
- font-weight: lighter;
- font-size: x-large;
- text-decoration: underline;
- margin: 4rem 0 1.5rem 0;
+  font-weight: lighter;
+  font-size: x-large;
+  text-decoration: underline;
+  margin: 4rem 0 1.5rem 0;
 }
 
 #abtText {
- font-weight: lighter;
- font-size: large;
- text-align: justify;
+  font-weight: lighter;
+  font-size: large;
+  text-align: justify;
 }
 
 /* OUTRO */
 
 #outro {
- display: flex;
- align-items: center;
- justify-content: space-between;
- padding: 2rem 4rem;
- background-color: #583ebc;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: black;
 }
 
 .leftOutro ul {
- display: flex;
- align-items: center;
- gap: 1rem;
- list-style: none;
- background-color: #583ebc;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  background-color: black;
 }
 
 .leftOutro ul li {
- background-color: #583ebc;
+  background-color: black;
 }
 
 .leftOutro ul a {
- text-decoration: none;
- background-color: #583ebc;
- color: whitesmoke;
- font-weight: lighter;
- font-size: small;
+  text-decoration: none;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .leftOutro ul a:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .leftOutro ul i {
- background-color: #583ebc;
- color: whitesmoke;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .leftOutro ul a img {
- background-color: #583ebc;
- color: whitesmoke;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .rightOutro {
- display: flex;
- align-items: center;
- gap: 1rem;
- background-color: #583ebc;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: black;
 }
 
 .rightOutroText {
- font-weight: lighter;
- font-size: small;
- background-color: #583ebc;
- color: whitesmoke;
+  font-weight: lighter;
+  font-size: small;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 750px) {
+  #about {
+    margin: 7rem 2rem 3rem 2rem;
+    width: 85%;
+  }
 
- #about {
-  margin: 7rem 2rem 3rem 2rem;
-  width: 85%;
- }
+  #abtTitle,
+  .expTitle {
+    font-size: larger;
+  }
 
- #abtTitle,
- .expTitle {
-  font-size: larger;
- }
+  #abtText {
+    font-size: small;
+  }
 
- #abtText {
-  font-size: small;
- }
+  /* OUTRO */
 
- /* OUTRO */
+  #outro {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
 
- #outro {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 2rem;
- }
+  .leftOutro {
+    width: 100%;
+  }
 
- .leftOutro {
-  width: 100%;
- }
+  .leftOutro ul {
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
- .leftOutro ul {
-  gap: 0.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
- }
+  .leftOutro li {
+    font-size: smaller;
+  }
 
- .leftOutro li {
-  font-size: smaller;
- }
-
- .rightOutroText {
-  font-size: smaller;
- }
+  .rightOutroText {
+    font-size: smaller;
+  }
 }
