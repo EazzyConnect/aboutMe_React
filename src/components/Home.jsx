@@ -3,7 +3,6 @@ import homeCSS from "./css-files/Home.module.css";
 import useInView from "../hooks/useInView";
 import Items from "./sub-components/Items";
 import { Stack } from "./sub-components/Items";
-import myPic from "/images/eazzy.png";
 
 const Home = ({ toggleTab }) => {
   const expertiseRef = useRef();
