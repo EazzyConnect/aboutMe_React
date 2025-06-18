@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Home from "./components/Home";
-import About from "./components/About";
+// import About from "./components/About";
 // import Projects from './components/Projects';
 import Contact from "./components/Contact";
 import appCSS from "./App.module.css";
@@ -75,12 +75,12 @@ const App = () => {
                 >
                   Home
                 </button>
-                <button
+                {/* <button
                   className={appCSS.showTab}
                   onClick={() => toggleTab("About")}
                 >
                   About
-                </button>
+                </button> */}
                 {/* <button className={appCSS.showTab} onClick={() => toggleTab("Projects")}>Projects</button> */}
                 <button
                   className={appCSS.showTab}
@@ -97,12 +97,12 @@ const App = () => {
             >
               Home
             </button>
-            <button
+            {/* <button
               className={appCSS.fullScreen}
               onClick={() => toggleTab("About")}
             >
               About
-            </button>
+            </button> */}
             {/* <button className={appCSS.fullScreen} onClick={() => toggleTab("Projects")}>Projects</button> */}
             <button
               className={appCSS.fullScreen}
@@ -118,13 +118,13 @@ const App = () => {
             >
               <i className="fa-solid fa-house-user"></i>
             </button>
-            <button
+            {/* <button
               className={appCSS.mobile}
               title="About"
               onClick={() => toggleTab("About")}
             >
               <i className="fa-solid fa-user"></i>
-            </button>
+            </button> */}
             {/* <button className={appCSS.mobile} title='Projects' onClick={() => toggleTab("Projects")}><i className="fa-solid fa-toolbox"></i></button> */}
             <button
               className={appCSS.mobile}
@@ -151,11 +151,11 @@ const App = () => {
           </div>
         )}
 
-        {tab === "About" && (
+        {/* {tab === "About" && (
           <div>
             <About />
           </div>
-        )}
+        )} */}
 
         {/* {tab === "Projects" && (
           <div>

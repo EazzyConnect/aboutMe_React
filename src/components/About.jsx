@@ -15,7 +15,7 @@ const About = () => {
       title: "Software Engineer (MERN-Stack)",
       organization: "BusinessHours LLC",
       location: "USA (Remote)",
-      date: "April 2024 - Current",
+      date: "April 2023 - Current",
       partFullTrainee: "Remote",
     },
     // {

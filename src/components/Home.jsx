@@ -439,6 +439,38 @@ const Home = ({ toggleTab }) => {
           <div className={homeCSS.buzineshoursContainer}>
             <div className={homeCSS.buzineshoursImgContainer}>
               <img
+                src="images/epicpay.png"
+                alt="epicpay"
+                className={homeCSS.buzineshoursImg}
+              />
+            </div>
+            <div className={homeCSS.buzineshoursOverview}>
+              <h3 className={homeCSS.buzineshoursOverviewTitle}>Epic Pay</h3>
+              <p className={homeCSS.buzineshoursOverviewText}>
+                An open banking platform for businesses and individuals to
+                manage funds and carry out daily transactions.
+              </p>
+              <p className={homeCSS.buzineshoursOverviewText}>
+                Individuals can manage all their bank accounts in one place,
+                make instant transfer, pay bills and lots more.
+              </p>
+
+              <div>
+                <a
+                  href="https://www.epicpay.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={homeCSS.visitLink}
+                >
+                  View website here
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className={homeCSS.buzineshoursContainer}>
+            <div className={homeCSS.buzineshoursImgContainer}>
+              <img
                 src="images/project5.jpg"
                 alt="employmentMgtSys"
                 className={homeCSS.buzineshoursImg}
